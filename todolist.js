@@ -27,7 +27,7 @@ function add() {
     list.appendChild(toDoItem);
     toDoItem.classList.add("todo");
 
-    input.value = ""; // Clear the input field
+    input.value = ""; 
 }
 
 button.addEventListener("click", add);
